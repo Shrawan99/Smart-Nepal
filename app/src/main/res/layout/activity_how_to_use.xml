@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.nasa.smart_nepal.How_to_use">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <TextView
+        android:text="Step 1: Go to Main menu where you can see bunch of Icon.\n\nStep 2: Rates can't update from main menu.\n\nStep 3: Connect to Internet.\n\nStep 4: Click any icon in main menu Eg.Vegetables then you will see blank activity with [Not Availabel] text.\n\nStep 5: Now Go to Option Menu there will see [Updates rates],Click it! Now App will connect to Server dont touch to screen untill it finish itself.\n\nStep 6: Again go to Main menu to refresh App.\n\nStep 7: Now click to any icon to get latest and daily rates.\n\n\nNote: Once you Update rates,it updates rates of vegetables,Exchange and Petroleum rates.
+        \n\n    Thank you,\n    Injoy using Smart Nepal.\n\n    Your feedback is highly appreciated."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="#fa000000"
+        android:textStyle="normal"
+
+        android:textSize="13sp" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

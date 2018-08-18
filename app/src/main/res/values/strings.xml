@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Smart Nepal</string>
+    <string name="about_text">Smart Nepal is Nepali app created by Ultimate Way Pvt. Ltd to make Nepalese people aware of  randomness of price of vegetables, transportation fare, Daily updates of Exchange rates, petroleum price ,  make easy way to  access urgent  telephone number and help to  find the bank and its branch and ATM machine  all around Nepal.
+\nThe problem caused by high bandwidth charge using online maps is somehow solved by approximate offline location of different hospitals, bank and its ATM and different types of hotels and restaurants.
+\n\nAdditionally, we added the database of different category of hotels according to its stars and provide the rating of hotels powered by  TripAdvisor.
+\n\nFeatures of App:\n-->The annoying notifications were completely removed so, you can use this App according to your need and time.\n-->Simple layout and easy user interface.
+\n\nThank you,
+\nUltimate Way Pvt Ltd.
+\n\nDeveloper:Er.Shrawan Raut and Shristi Khatiwada</string>
+    <string name="action_settings">Update Rates</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_extras">ExtrasActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_vegetables">Vegetables</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings_vegetables">Update Rates</string>
+    <string name="action_exchange_rates">Update Rates</string>
+    <string name="vegetables">Vegetables And Fruits</string>
+    <string name="fruits">Fruits</string>
+    <string name="exchange_rates">Exchange Rates</string>
+    <string name="vegetables_textView1">Spinach</string>
+    <string name="vegetables_textView2">Cauliflower</string>
+    <string name="vegetables_textView3">Cabbage</string>
+    <string name="vegetables_textView4">Cucumber</string>
+    <string name="vegetables_textView5">Potato</string>
+    <string name="vegetables_textView6">Pumpkin</string>
+    <string name="fruits_textView1">Apple</string>
+    <string name="fruits_textView2">Banana</string>
+    <string name="fruits_textView3">Orange</string>
+    <string name="fruits_textView4">Mango</string>
+    <string name="fruits_textView5">Strawberry</string>
+    <string name="fruits_textView6">Papaya</string>
+    <string name="programs_textView1">USD</string>
+    <string name="programs_textView2">AUD</string>
+    <string name="vegetable_action_settings">Update Rates</string>
+    <string name="default_value"></string>
+    <string name="title_activity_exchange__rates">Exchange_Rates</string>
+    <string name="title_activity_bank_activity">Bank_activity</string>
+    <string name="title_activity_telephone_activity">telephone_activity</string>
+    <string name="title_activity_telephone">telephoneActivity</string>
+    <string name="title_activity_hotel">HotelActivity</string>
+    <string name="how_use">Tutorial</string>
+    <string name="action1_setting">Setting</string>
+    <string name="title_activity_hospital">HospitalActivity</string>
+    <string name="title_activity_how_to_use">How_to_use</string>
+    <string name="title_activity_loadsheding">Loadsheding</string>
+    <string name="title_activity_startpoint">startpoint</string>
+
+</resources>

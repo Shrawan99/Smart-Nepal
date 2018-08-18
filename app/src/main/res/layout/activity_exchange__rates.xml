@@ -1,0 +1,472 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.nasa.smart_nepal.Exchange_Rates">
+
+    <TextView
+        android:id="@+id/exchange_rates_textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#ff070d63"
+        android:layout_gravity="start"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="0dp"
+        android:text="Currency" />
+
+    <TextView
+        android:id="@+id/exchange_rates_editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selling/Unit"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#ff070d63"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="0dp"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp">
+       <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/exchange_rates_textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_gravity="start"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:textStyle="normal"
+        android:textColor="#08000000" />
+
+    <TextView
+        android:id="@+id/exchange_rates_editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/default_value"
+        android:textSize="16sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:textColor="#08000000"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/exchange_rates_textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_gravity="start"
+        android:layout_alignTop="@id/exchange_rates_textView2"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="33dp"
+        android:textStyle="bold|normal"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/exchange_rates_editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/default_value"
+        android:textSize="16sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/exchange_rates_editText2"
+        android:layout_marginTop="33dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:textColor="#000000"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/exchange_rates_textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_gravity="start"
+        android:layout_alignTop="@id/exchange_rates_textView3"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="33dp"
+        android:textStyle="bold|normal"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/exchange_rates_editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/default_value"
+        android:textSize="16sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/exchange_rates_editText3"
+        android:layout_marginTop="33dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:textStyle="normal"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/exchange_rates_textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_gravity="start"
+        android:layout_alignTop="@id/exchange_rates_textView4"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="33dp"
+        android:textColor="#000000"
+        android:textStyle="bold|normal" />
+
+    <TextView
+        android:id="@+id/exchange_rates_editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/default_value"
+        android:textSize="16sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/exchange_rates_editText4"
+        android:layout_marginTop="33dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:textColor="#000000"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/exchange_rates_textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_gravity="start"
+        android:layout_alignTop="@id/exchange_rates_textView5"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="33dp"
+        android:textColor="#000000"
+        android:textStyle="bold|normal" />
+
+    <TextView
+        android:id="@+id/exchange_rates_editText6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/default_value"
+        android:textSize="16sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/exchange_rates_editText5"
+        android:layout_marginTop="33dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:textColor="#000000"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/exchange_rates_textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_gravity="start"
+        android:layout_alignTop="@id/exchange_rates_textView6"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="33dp"
+        android:textColor="#000000"
+        android:textStyle="bold|normal" />
+
+    <TextView
+        android:id="@+id/exchange_rates_editText7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/default_value"
+        android:textSize="16sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/exchange_rates_editText6"
+        android:layout_marginTop="33dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:textColor="#000000"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/exchange_rates_textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_gravity="start"
+        android:layout_alignTop="@id/exchange_rates_textView7"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="33dp"
+        android:textColor="#000000"
+        android:textStyle="bold|normal" />
+
+    <TextView
+        android:id="@+id/exchange_rates_editText8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/default_value"
+        android:textSize="16sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/exchange_rates_editText7"
+        android:layout_marginTop="33dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:textColor="#000000"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/exchange_rates_textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_gravity="start"
+        android:layout_alignTop="@id/exchange_rates_textView8"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="33dp"
+        android:textColor="#000000"
+        android:textStyle="bold|normal" />
+
+    <TextView
+        android:id="@+id/exchange_rates_editText9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/default_value"
+        android:textSize="16sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/exchange_rates_editText8"
+        android:layout_marginTop="33dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:textColor="#000000"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/exchange_rates_textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_gravity="start"
+        android:layout_alignTop="@id/exchange_rates_textView9"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="33dp"
+        android:textColor="#000000"
+        android:textStyle="bold|normal" />
+
+    <TextView
+        android:id="@+id/exchange_rates_editText10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/default_value"
+        android:textSize="16sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/exchange_rates_editText9"
+        android:layout_marginTop="33dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:textColor="#000000"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/exchange_rates_textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_gravity="start"
+        android:layout_alignTop="@id/exchange_rates_textView10"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="33dp"
+        android:textStyle="bold|normal"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/exchange_rates_editText11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/default_value"
+        android:textSize="16sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/exchange_rates_editText10"
+        android:layout_marginTop="33dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:textColor="#000000"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/exchange_rates_textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_gravity="start"
+        android:layout_alignTop="@id/exchange_rates_textView11"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="33dp"
+        android:textColor="#000000"
+        android:textStyle="bold|normal" />
+
+    <TextView
+        android:id="@+id/exchange_rates_editText12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/default_value"
+        android:textSize="16sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/exchange_rates_editText11"
+        android:layout_marginTop="33dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:textColor="#000000"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/exchange_rates_textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_gravity="start"
+        android:layout_alignTop="@id/exchange_rates_textView12"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="33dp"
+        android:textColor="#000000"
+        android:textStyle="bold|normal" />
+
+    <TextView
+        android:id="@+id/exchange_rates_editText13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/default_value"
+        android:textSize="16sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/exchange_rates_editText12"
+        android:layout_marginTop="33dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:textColor="#000000"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/exchange_rates_textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_gravity="start"
+        android:layout_alignTop="@id/exchange_rates_textView13"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="33dp"
+        android:textColor="#000000"
+        android:textStyle="bold|normal" />
+
+    <TextView
+        android:id="@+id/exchange_rates_editText14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/default_value"
+        android:textSize="16sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/exchange_rates_editText13"
+        android:layout_marginTop="33dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:textColor="#000000"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/exchange_rates_textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_gravity="start"
+        android:layout_alignTop="@id/exchange_rates_textView14"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="33dp"
+        android:textColor="#000000"
+        android:textStyle="bold|normal" />
+
+    <TextView
+        android:id="@+id/exchange_rates_editText15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/default_value"
+        android:textSize="16sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/exchange_rates_editText14"
+        android:layout_marginTop="33dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:textColor="#000000"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/exchange_rates_textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_gravity="start"
+        android:layout_alignTop="@id/exchange_rates_textView15"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="33dp"
+        android:textColor="#000000"
+        android:textStyle="bold|normal" />
+
+    <TextView
+        android:id="@+id/exchange_rates_editText16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/default_value"
+        android:textSize="16sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/exchange_rates_editText15"
+        android:layout_marginTop="33dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:textColor="#000000"
+        android:textStyle="normal" />
+
+    </RelativeLayout>
+
+    </ScrollView>
+    </TableLayout>
+
+</RelativeLayout>

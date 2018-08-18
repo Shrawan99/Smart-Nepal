@@ -1,0 +1,1875 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="6dp"
+    android:paddingBottom="6dp"
+    tools:context="com.example.nasa.smart_nepal.Vegetables">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Items"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#ff070d63"
+        android:id="@+id/textView_items" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Per Kg"
+        android:id="@+id/textKG"
+        android:layout_alignBottom="@+id/textView_items"
+        android:layout_alignRight="@+id/tableLayout"
+        android:layout_alignEnd="@+id/tableLayout"
+        android:textStyle="bold"
+        android:textColor="#ff070d63"
+        android:textSize="20sp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tableLayout"
+        android:layout_marginTop="30dp">
+
+
+
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <TextView
+                    android:id="@+id/vegetables_textView1"
+                     android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="0dp"
+                    android:textColor="#fa000000"
+                    android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="0dp"
+                android:textStyle="bold"
+                android:textColor="#fa000000" />
+
+            <TextView
+                android:id="@+id/vegetables_textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView1"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText1"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView2"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textStyle="bold"
+                android:textColor="#fa000000" />
+
+            <TextView
+                android:id="@+id/vegetables_editText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText2"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView3"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText3"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView4"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textStyle="bold"
+                android:textColor="#fa000000" />
+
+            <TextView
+                android:id="@+id/vegetables_editText5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText4"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView5"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText5"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView6"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText6"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView7"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText7"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView8"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText8"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView9"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText9"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView10"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText10"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView11"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText11"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView12"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText12"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView13"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText13"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView14"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText14"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView15"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText15"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView16"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText16"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView17"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText17"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView18"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText18"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView19"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText19"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView20"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText20"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView21"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText21"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView22"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText22"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView23"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText23"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView24"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText24"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView25"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText25"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView26"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText26"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView27"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText27"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView28"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText28"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView29"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText29"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView30"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText30"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView31"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText31"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView32"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText32"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView33"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText33"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView34"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText34"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView35"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText35"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView36"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText36"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView37"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText37"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView38"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText38"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView39"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText39"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView40"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText40"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView41"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText41"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView42"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText42"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView43"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText43"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView44"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText44"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView46"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView45"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText46"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText45"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView47"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView46"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText47"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText46"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView48"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView47"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText48"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText47"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView49"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView48"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText49"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText48"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView49"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText49"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView50"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText50"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView51"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText51"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView53"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView52"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText53"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText52"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView54"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView53"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText54"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText53"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView55"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView54"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText55"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText54"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView56"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView55"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText56"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText55"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView57"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView56"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText57"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText56"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView58"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView57"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText58"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText57"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView59"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView58"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText59"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText58"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView60"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView59"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText60"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText59"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView61"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView60"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText61"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText60"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView62"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView61"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText62"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText61"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView63"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView62"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText63"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText62"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView64"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView63"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText64"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText63"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_textView65"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="start"
+                android:layout_alignTop="@id/vegetables_textView64"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vegetables_editText65"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_value"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/vegetables_editText64"
+                android:layout_marginTop="33dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:textColor="#fa000000"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+    </TableLayout>
+
+</RelativeLayout>
